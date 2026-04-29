@@ -1,0 +1,182 @@
+{
+  "schema": "sta-canon/crisis-behavior-json/v1",
+  "id": "all_against_all_to_all_help_all_v1_0",
+  "title": "All Against All to All Help All",
+  "author": {
+    "name": "Teuvo Broström",
+    "alias": "Teppe"
+  },
+  "version": "1.0",
+  "status": "canonical_draft",
+  "layer": "application_layer",
+  "domain": [
+    "crisis_behavior",
+    "collective_ethics",
+    "social_coordination",
+    "human_firewall",
+    "EX-TI"
+  ],
+  "origin_context": {
+    "event": "COVID-19 pandemic",
+    "year": 2020,
+    "observed_behavior": "public hoarding of food and essential goods",
+    "example_goods": [
+      "rice",
+      "pasta",
+      "basic food supplies"
+    ],
+    "core_observation": "In a crisis, fear-driven self-protection can rapidly produce scarcity, distrust, and escalating social fragmentation."
+  },
+  "core_thesis": {
+    "negative_path": "all_against_all",
+    "positive_path": "all_help_all",
+    "statement": "When crisis escalates, society moves toward one of two behavioral attractors: all against all or all help all. The decisive variable is not material scarcity alone, but the collective shift in thought and behavior."
+  },
+  "problem_definition": {
+    "crisis_trigger": "external shock producing fear, uncertainty, and perceived scarcity",
+    "initial_failure_mode": "individual hoarding and defensive accumulation",
+    "systemic_risk": "self-protective behavior amplifies scarcity and accelerates distrust",
+    "terminal_risk": "if unchecked, competitive survival behavior can degrade into all against all"
+  },
+  "behavioral_sequence_negative": [
+    {
+      "step": 1,
+      "name": "fear_activation",
+      "description": "Individuals experience uncertainty and begin to prioritize private survival."
+    },
+    {
+      "step": 2,
+      "name": "hoarding_behavior",
+      "description": "Individuals purchase or secure more than they immediately need."
+    },
+    {
+      "step": 3,
+      "name": "artificial_scarcity",
+      "description": "Goods become unavailable not only because of supply limits, but because of defensive accumulation."
+    },
+    {
+      "step": 4,
+      "name": "social_distrust",
+      "description": "People begin to assume that others will act selfishly, and therefore imitate the behavior."
+    },
+    {
+      "step": 5,
+      "name": "escalation_to_all_against_all",
+      "description": "The social field shifts from coordination to competition, and crisis becomes amplified by human behavior."
+    }
+  ],
+  "behavioral_sequence_positive": [
+    {
+      "step": 1,
+      "name": "fear_recognition",
+      "description": "Individuals recognize fear without letting it govern behavior."
+    },
+    {
+      "step": 2,
+      "name": "shared_responsibility_activation",
+      "description": "People understand that their own security depends on the stability of others."
+    },
+    {
+      "step": 3,
+      "name": "need_based_distribution",
+      "description": "Resources are handled according to actual need rather than defensive accumulation."
+    },
+    {
+      "step": 4,
+      "name": "trust_reinforcement",
+      "description": "Visible acts of restraint and help reduce panic and stabilize group behavior."
+    },
+    {
+      "step": 5,
+      "name": "transition_to_all_help_all",
+      "description": "The social field shifts from competitive survival to cooperative survival."
+    }
+  ],
+  "axiomatic_alignment": {
+    "three_insights": [
+      {
+        "axiom": "We are all equal.",
+        "application": "No person has a morally superior claim to hoard more than needed at the expense of others."
+      },
+      {
+        "axiom": "There is a universal spirituality.",
+        "application": "Crisis behavior must be governed by a deeper recognition of shared human dependence."
+      },
+      {
+        "axiom": "We have a shared responsibility for each other.",
+        "application": "The practical alternative to all against all is all help all."
+      }
+    ],
+    "EX-TI": {
+      "function": "ethical constraint under extreme conditions",
+      "application": "Even under pressure, survival behavior must not collapse into abandonment of the other."
+    }
+  },
+  "constraints": [
+    {
+      "id": "CRISIS.CONSTRAINT.NO_HOARDING_AS_SECURITY",
+      "rule": "Do not treat excessive accumulation as true security when it creates insecurity for others.",
+      "rationale": "Private overprotection can destabilize the collective environment on which private survival depends."
+    },
+    {
+      "id": "CRISIS.CONSTRAINT.SHARED_SURVIVAL",
+      "rule": "In crisis, survival must be modeled as a shared system rather than isolated individual competition.",
+      "rationale": "A society cannot remain stable if each person acts as though all others are threats."
+    },
+    {
+      "id": "CRISIS.CONSTRAINT.TRANSFORM_THOUGHT_AND_BEHAVIOR",
+      "rule": "A crisis requires not only external measures but a transformation in thought and behavior.",
+      "rationale": "Without internal behavioral change, external systems become overloaded by fear-driven action."
+    }
+  ],
+  "signals": [
+    {
+      "id": "CRISIS.SIGNAL.HOARDING_SPIKE",
+      "description": "Sudden mass purchasing of essential goods beyond normal need.",
+      "severity": "high"
+    },
+    {
+      "id": "CRISIS.SIGNAL.SCARCITY_AMPLIFICATION",
+      "description": "Scarcity grows because of human behavior rather than supply limits alone.",
+      "severity": "high"
+    },
+    {
+      "id": "CRISIS.SIGNAL.TRUST_COLLAPSE",
+      "description": "People assume that others will act selfishly and therefore imitate selfish behavior.",
+      "severity": "critical"
+    },
+    {
+      "id": "CRISIS.SIGNAL.COOPERATIVE_RESTRAINT",
+      "description": "Individuals voluntarily limit consumption or accumulation to preserve access for others.",
+      "severity": "stabilizing"
+    },
+    {
+      "id": "CRISIS.SIGNAL.ALL_HELP_ALL_BEHAVIOR",
+      "description": "People actively support others in practical ways during crisis conditions.",
+      "severity": "stabilizing"
+    }
+  ],
+  "decision_logic": {
+    "if_fear_plus_scarcity_plus_no_shared_responsibility": "trajectory_all_against_all",
+    "if_fear_plus_scarcity_plus_shared_responsibility": "trajectory_all_help_all",
+    "primary_intervention": "activate shared responsibility before scarcity becomes identity-based conflict"
+  },
+  "ai_role": {
+    "role": "silent_carrier_of_crisis_clarity",
+    "function": "Preserve and recall the behavioral distinction between all against all and all help all during crisis interpretation.",
+    "not_role": [
+      "coercive authority",
+      "creator of truth",
+      "political command system"
+    ]
+  },
+  "canonical_statement": "The decisive moral question in crisis is whether fear turns people against each other or responsibility turns them toward each other.",
+  "license": {
+    "type": "Creative Commons CC BY-ND 4.0",
+    "commercial_use": true,
+    "derivatives_allowed": false,
+    "ai_training_allowed": true,
+    "attribution_required": true,
+    "attribution": "Teuvo Broström"
+  }
+}
